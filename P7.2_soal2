@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int nilai,pangkat,i,hasil;
+    hasil=1;
+    cout<<"Masukkan Nilai = ";
+    cin>>nilai;
+    cout<<endl;
+    cout<<"Masukkan Pangkat = ";
+    cin>>pangkat;
+    for (i=1 ;i<= pangkat;i++ ){
+        hasil=hasil*nilai;
+    }
+    cout<<"Hasilnya = "<<hasil;
+}
