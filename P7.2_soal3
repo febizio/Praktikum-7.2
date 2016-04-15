@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int angka,hasil,i;
+    hasil=1;
+    cout<<"masukan angka untuk mengetahui nilai faktorial = ";
+    cin>>angka;
+    cout<<angka<<"! =";
+    for (i=angka ; i>=1 ; i--){
+        if(i==1){
+             cout<<i;
+        }else{
+        cout<<i<<"x";
+        }
+
+
+        hasil=hasil*i;
+    }
+    cout<<" = "<<hasil;
+}
